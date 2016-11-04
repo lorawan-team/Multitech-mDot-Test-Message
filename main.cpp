@@ -16,7 +16,7 @@ int main() {
     int32_t ret;
     mDot* dot;
     std::vector<uint8_t> data;
-    std::string data_str = "{Bridge: false}";
+    std::string data_str = "{"Bridge": false}";
     
     // get a mDot handle
     dot = mDot::getInstance();
